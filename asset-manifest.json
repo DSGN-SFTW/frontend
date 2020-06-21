@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/frontend/app/static/css/main.5f361e03.chunk.css",
-    "main.js": "/frontend/app/static/js/main.2b3b35bc.chunk.js",
-    "main.js.map": "/frontend/app/static/js/main.2b3b35bc.chunk.js.map",
-    "runtime-main.js": "/frontend/app/static/js/runtime-main.15147f35.js",
-    "runtime-main.js.map": "/frontend/app/static/js/runtime-main.15147f35.js.map",
-    "static/js/2.9598ca2c.chunk.js": "/frontend/app/static/js/2.9598ca2c.chunk.js",
-    "static/js/2.9598ca2c.chunk.js.map": "/frontend/app/static/js/2.9598ca2c.chunk.js.map",
-    "index.html": "/frontend/app/index.html",
-    "precache-manifest.d7269ffd130179eb78ab342f2b68467b.js": "/frontend/app/precache-manifest.d7269ffd130179eb78ab342f2b68467b.js",
-    "service-worker.js": "/frontend/app/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/frontend/app/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.9598ca2c.chunk.js.LICENSE.txt": "/frontend/app/static/js/2.9598ca2c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/frontend/app/static/media/logo.5d5d9eef.svg"
+    "main.css": "/frontend/static/css/main.5f361e03.chunk.css",
+    "main.js": "/frontend/static/js/main.b26c3854.chunk.js",
+    "main.js.map": "/frontend/static/js/main.b26c3854.chunk.js.map",
+    "runtime-main.js": "/frontend/static/js/runtime-main.60624324.js",
+    "runtime-main.js.map": "/frontend/static/js/runtime-main.60624324.js.map",
+    "static/js/2.9598ca2c.chunk.js": "/frontend/static/js/2.9598ca2c.chunk.js",
+    "static/js/2.9598ca2c.chunk.js.map": "/frontend/static/js/2.9598ca2c.chunk.js.map",
+    "index.html": "/frontend/index.html",
+    "precache-manifest.8b91bc5f14b62987fd573097cca1f537.js": "/frontend/precache-manifest.8b91bc5f14b62987fd573097cca1f537.js",
+    "service-worker.js": "/frontend/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/frontend/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.9598ca2c.chunk.js.LICENSE.txt": "/frontend/static/js/2.9598ca2c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/frontend/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.15147f35.js",
+    "static/js/runtime-main.60624324.js",
     "static/js/2.9598ca2c.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2b3b35bc.chunk.js"
+    "static/js/main.b26c3854.chunk.js"
   ]
 }
