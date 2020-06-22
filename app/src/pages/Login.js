@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Input } from "@material-ui/core";
 import api from "../services/api";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 
 const Form = styled.form`
   text-align: center;
@@ -34,7 +34,7 @@ async function handleSumbit(email, password) {
   console.log("handle user", email);
   console.log("handle pass", password);
   Number(password);
-  const response = await axios({
+  await axios({
     method: "post",
     url: api.LINK_LOGIN,
     headers: {
@@ -45,7 +45,6 @@ async function handleSumbit(email, password) {
       password
     }
   });
-  return response;
 }
 
 // handle;
@@ -57,7 +56,7 @@ function Login() {
   return (
     <>
       <Form>
-        <FormTitle>Login</FormTitle>
+        <FormTitle>Login - </FormTitle>
         <Label htmlFor="email">Usuario:</Label>
         <Input
           type="text"
@@ -81,13 +80,8 @@ function Login() {
         <Input
           type="button"
           value="Login"
-          onClick={event => {
-            if (handleSumbit(email, password)) {
-              console.log("password", password);
-              console.log("email", email);
-              event.preventDefault();
-              return <Link to="/aulas"></Link>;
-            }
+          onClick={() => {
+            handleSumbit(email, password);
           }}
         />
       </Form>

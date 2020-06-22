@@ -9,9 +9,10 @@ import Sobre from "./pages/Sobre";
 import Login from "./pages/Login";
 import Cadastro from "./pages/Cadastro";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Private ,BrowserRouter, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+
 
 ReactDOM.render(
   <BrowserRouter>

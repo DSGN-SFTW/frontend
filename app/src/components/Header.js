@@ -35,10 +35,10 @@ export default function Footer({ title }) {
         <Title>{title}</Title>
         <Menu>
           <MenuItem>
-            <Link to="/login">CADASTRO</Link>
+            <Link to="/login">LOGIN</Link>
           </MenuItem>
           <MenuItem>
-            <Link to="/cadastro">LOGIN</Link>
+            <Link to="/cadastro">CADASTRO</Link>
           </MenuItem>
         </Menu>
       </NavBar>
