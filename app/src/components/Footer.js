@@ -47,7 +47,7 @@ export default function Footer() {
     <MainFooter>
       <script
         src="https://kit.fontawesome.com/5a41c871a8.js"
-        crossorigin="anonymous"
+        crossOrigin="anonymous"
       ></script>
 
       <NavBar>

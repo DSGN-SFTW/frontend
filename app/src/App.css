@@ -20,3 +20,7 @@ ul li a {
   text-decoration: none;
   color: #d3d0cb;
 }
+
+.MuiInputBase-root {
+  color: red;
+}
