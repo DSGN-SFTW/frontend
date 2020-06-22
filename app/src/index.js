@@ -6,11 +6,16 @@ import Contato from "./pages/Contato";
 import Equipe from "./pages/Equipe";
 import Exercicios from "./pages/Exercicios";
 import Sobre from "./pages/Sobre";
+import Login from "./pages/Login";
+import Cadastro from "./pages/Cadastro";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
   <BrowserRouter>
+    <Header title="4code" />
     <Switch>
       <Route path="/" exact={true} component={App} />
       <Route path="/aulas" component={App} />
@@ -18,7 +23,10 @@ ReactDOM.render(
       <Route path="/exercicios" component={Exercicios} />
       <Route path="/equipe" component={Equipe} />
       <Route path="/contato" component={Contato} />
+      <Route path="/cadastro" component={Cadastro} />
+      <Route path="/login" component={Login} />
     </Switch>
+    <Footer />
   </BrowserRouter>,
   document.getElementById("root")
 );

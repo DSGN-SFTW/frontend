@@ -4,30 +4,44 @@ import { Link } from "react-router-dom";
 
 const Title = styled.h1`
   font-size: 1.5em;
+  margin-top: 10px;
+  color: #d3d0cb;
 `;
 
-const List = styled.li`
+const MenuItem = styled.li`
   display: inline;
   font-size: 20px;
   margin-left: 10px;
   text-decoration: none;
+  float: right;
+  margin-right: 50px;
 `;
 
-export default function Header({ title }) {
+const Menu = styled.ul`
+  margin-bottom: 10px;
+`;
+
+const NavBar = styled.div`
+  background-color: #2e5266;
+  padding: 20px;
+  width: auto;
+  height: auto;
+`;
+
+export default function Footer({ title }) {
   return (
     <header>
-      <div className="header">
+      <NavBar>
         <Title>{title}</Title>
-        <ul className="nav-menu">
-          <List>
-            <Link to="/aulas">Aulas</Link>
-            <Link to="/exercicios">Exercicios</Link>
-            <Link to="/sobre">Sobre</Link>
-            <Link to="/equipe">Equipe</Link>
-            <Link to="/contato">Contato</Link>
-          </List>
-        </ul>
-      </div>
+        <Menu>
+          <MenuItem>
+            <Link to="/login">CADASTRO</Link>
+          </MenuItem>
+          <MenuItem>
+            <Link to="/cadastro">LOGIN</Link>
+          </MenuItem>
+        </Menu>
+      </NavBar>
     </header>
   );
 }
