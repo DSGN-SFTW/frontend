@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./pages/App";
+import App from "./App";
 import Contato from "./pages/Contato";
 import Equipe from "./pages/Equipe";
 import Exercicios from "./pages/Exercicios";
