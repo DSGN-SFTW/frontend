@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Input } from "@material-ui/core";
 import api from "../services/api";
 import axios from "axios";
-import { Redirect } from "react-router-dom";
 
 const Form = styled.form`
   text-align: center;
@@ -15,6 +14,7 @@ const Form = styled.form`
   top: 50%;
   transform: translate(-50%, -50%);
   border: solid 1px;
+  border-radius: 10px;
   background-color: 
   margin-top: 20px;
 `;
@@ -24,8 +24,9 @@ const Label = styled.label`
   align-items: center;
 `;
 
+
 const FormTitle = styled.h3`
-  font-size: 20px;
+  font-size: 50px;
   padding-top: 10%;
   padding-bottom: 20%;
 `;
@@ -56,7 +57,7 @@ function Login() {
   return (
     <>
       <Form>
-        <FormTitle>Login - </FormTitle>
+        <FormTitle>Login - 4code</FormTitle>
         <Label htmlFor="email">Usuario:</Label>
         <Input
           type="text"

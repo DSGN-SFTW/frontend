@@ -5,8 +5,8 @@ const SobreContainer = styled.div`
   text-align: center;
   margin-top: 20%;
   justify-content: center;
-  width: 30%;
   position: relative;
+  width 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: solid 1px;
@@ -17,6 +17,10 @@ const SobreContainer = styled.div`
 
 `;
 
+const Title = styled.h1`
+  font-size: 50px;
+`;
+
 const Text = styled.p`
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
@@ -25,12 +29,12 @@ function Sobre() {
   return (
     <>
       <SobreContainer>
-        <h1>Sobre</h1>
+        <Title>Sobre</Title>
         <Text>
           O projeto 4code tem como missão ensinar adultos e idosos a Logica de
           programação e como maior foco a inserção destes no meio tecnológico.
         </Text>
-        <br/>
+        <br />
         <Text>
           Trabalhamos para despertar a vontade de estudar a área de tecnologia
           da informação em milhares de pessoas, porque acreditamos que a

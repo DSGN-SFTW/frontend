@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Input, Select, MenuItem } from "@material-ui/core";
 import api from "../services/api";
 import axios from "axios";
-import { Link } from "react-router-dom";
 
 const Form = styled.form`
   text-align: center;
@@ -15,6 +14,7 @@ const Form = styled.form`
   top: 50%;
   transform: translate(-50%, -50%);
   border: solid 1px;
+  border-radius: 10px;
   background-color: 
   margin-top: 20px;
 `;
@@ -113,7 +113,6 @@ function Cadastro() {
           onClick={event => {
             if (handleSumbit(email, password, name, user_group)) {
               event.preventDefault();
-              return <Link to="/aulas"></Link>;
             }
           }}
         />

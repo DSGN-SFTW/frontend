@@ -6,6 +6,7 @@ const Title = styled.h1`
   font-size: 1.5em;
   margin-top: 10px;
   color: #d3d0cb;
+  cursor: pointer;
 `;
 
 const MenuItem = styled.li`

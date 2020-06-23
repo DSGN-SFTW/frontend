@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Header title="4code" />
+    <Header title="4code"  />
     <Switch>
       <Route path="/" exact={true} component={App} />
       <Route path="/aulas" component={App} />

@@ -52,7 +52,7 @@ function Equipe() {
   return (
     <>
       <EquipeContainer>
-        <FaUserCircle size="50px" />
+        <FaUserCircle color="#2e5266" size="50px" />
         <IntegerName>Arthur Carneiro da Rocha</IntegerName>
         <IntegerInfos>
           <b>
@@ -83,7 +83,7 @@ function Equipe() {
         </SocialMenu>
       </EquipeContainer>
       <EquipeContainer>
-        <FaUserCircle size="50px" />
+        <FaUserCircle color="#2e5266" size="50px" />
         <IntegerName>Douglas Nadim Younes</IntegerName>
         <IntegerInfos>
           <b>
@@ -94,7 +94,7 @@ function Equipe() {
         </IntegerInfos>
         <SocialMenu>
           <SocialItem>
-            <Linkedin href="https://www.linkedin.com/in/Linkrthur-carneiro-153a9b169/">
+            <Linkedin href="https://www.linkedin.com/in/douglas-nadim-y-302935a3/">
               <FaLinkedin />
             </Linkedin>
           </SocialItem>
